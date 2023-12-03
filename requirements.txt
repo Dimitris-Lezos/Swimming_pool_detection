@@ -1,0 +1,10 @@
+flask
+flask-uploads
+opencv-python
+matplotlib
+pandas
+numpy
+dash
+plotly.express
+Pillow
+openapi-codec
