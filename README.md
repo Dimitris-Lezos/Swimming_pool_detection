@@ -21,7 +21,7 @@ To install the required dependencies, you can use pip:
 pip install dash opencv-python numpy base64
 ```
 
-#Usage
+# Usage
 To run the application, you can start the Dash server:
 
 ```Bash
