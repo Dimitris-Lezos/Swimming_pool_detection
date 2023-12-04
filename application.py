@@ -2,7 +2,6 @@ from dash import Dash, dcc, html, Input, Output
 import numpy as np
 import base64
 import cv2
-import numpy as np
 from scripts.utils import pool_detection
 import matplotlib.pyplot as plt
 
