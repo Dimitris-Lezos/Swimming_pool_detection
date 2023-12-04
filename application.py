@@ -111,4 +111,4 @@ def update_output(contents):
         return output_image_element
 
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server(host = "0.0.0.0")
