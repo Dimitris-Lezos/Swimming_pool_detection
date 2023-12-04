@@ -4,9 +4,7 @@ pandas
 numpy
 Pillow
 openapi-codec
-#gunicorn 
-#opencv-python-headless
-#skia-python
+gunicorn 
 opencv-python
 dash
 plotly.express
