@@ -24,9 +24,10 @@ pip install dash opencv-python numpy base64
 #Usage
 To run the application, you can start the Dash server:
 
-Bash
+```Bash
 python app.py
-Χρησιμοποιήστε τον κώδικα με προσοχή. Μάθετε περισσότερα
+```
+
 Then, open a web browser and go to ```http://localhost:8050```. You should see the application's user interface. Upload an image to the application and it will process the image and display the results.
 
 # How it works
