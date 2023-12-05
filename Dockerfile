@@ -9,4 +9,5 @@ COPY . .
 
 EXPOSE 8050
 
-CMD ["gunicorn", "-b", "0.0.0.0:8050", "app:server"]
+CMD ["python", "application.py"]
+#CMD ["gunicorn", "-b", "0.0.0.0:8050", "app:server"]

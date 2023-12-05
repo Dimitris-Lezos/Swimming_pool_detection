@@ -6,6 +6,8 @@ Pillow
 openapi-codec
 gunicorn 
 opencv-python
+opencv-python-headless
+opencv-contrib-python-headless
 dash
 plotly.express
 flask
