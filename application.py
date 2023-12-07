@@ -110,4 +110,4 @@ def update_output(contents):
         return output_image_element
 
 if __name__ == '__main__':
-    app.run_server(host = "0.0.0.0")
+    app.run_server(host = "0.0.0.0") #, port="8080", debug=True, use_reloader=False http://192.168.1.7:8080/
