@@ -1,36 +1,7 @@
 import cv2
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 import base64
-import os
-from PIL import Image
-import io
-import codecs
-
-# def get_image_names_list():
-#     return os.listdir('Data/')
-
-# def create_image_path(image_name):
-#     return 'Data/'+image_name
-
-# def read_image(image_full_path):
-#     return cv2.imread(image_full_path)
-
-# def convert_base64_string_to_image_numpy_array(image_data):
-#     image_data = image_data.replace("data:image/jpeg;base64,","")
-#     image_data_bytes = image_data.encode('utf-8')
-#     decoded_image_data = codecs.decode(image_data_bytes, 'utf-8')
-#     image = Image.open(decoded_image_data)
-#     image_array = np.array(image)   
-
-#     return image_array
-
-# def convert_image_numpy_array_to_string(image_data):
-#     # Convert the NumPy array to a base64-encoded string
-#     image_string = np.base64.b64encode(image_data).decode('utf-8')
-
-#     return image_string
 
 def plot_image_hist(image):
     range1 = 5
