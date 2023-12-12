@@ -9,5 +9,5 @@ COPY . .
 
 EXPOSE 8050
 
-CMD ["python", "application2.py"]
+CMD ["python", "applicationDemo.py"]
 
