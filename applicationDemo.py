@@ -101,9 +101,7 @@ def update_output(contents):
         input_image_element = html.Img(src='data:image/png;base64,{}'.format(encoded_image))
 
         # return output_image_element
-#        return html.Div(html.Table(html.Tr([html.Td(html.Div(html.Img(data))),html.Td('==>'),html.Td(output_image_element)])))
         return html.Div(html.Table(html.Tr([html.Td(input_image_element),html.Td('==>'),html.Td(output_image_element)])))
-        # return html.Div([output_image_element, html.Table(html.) ,output_image_element])
 
 if __name__ == '__main__':
     app.run_server(host = "0.0.0.0") #, port="8080", debug=True, use_reloader=False # http://192.168.1.7:8080/
